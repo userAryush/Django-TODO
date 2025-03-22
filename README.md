@@ -4,7 +4,7 @@ This project uses the basics operation of django framework. It mainly focuses on
 
 # Django To-Do App
 
-A simple yet functional To-Do application built using Django. This app allows users to view, create, edit, and delete tasks.
+A simple To-Do application built using Django. This app allows users to view, create, edit, and delete tasks.
 
 ---
 
@@ -25,3 +25,43 @@ A simple yet functional To-Do application built using Django. This app allows us
 - **Database:** SQLite (default Django database)  
 
 ---
+
+## 📂 Project Structure
+    📁 todo_app/
+    ├── 📄 models.py # Database models
+    ├── 📄 views.py # Logic and request handling
+    ├── 📄 urls.py # URL routing
+    ├── 📄 templates/ # HTML files 
+
+->> Clone repository
+
+git clone https://github.com/Mandip698/Final_Project_5CS024.git
+
+->> Create a Virtual environment using
+
+python -m venv env
+
+->> Activate Virtual environment using
+
+-> For Windows → env\Scripts\activate
+
+-> For Mac/Linux → source env/bin/activate
+
+->> Install all requirements using
+
+pip install -r requirements.txt
+
+->> Initialize models using
+
+python manage.py makemigrations
+python manage.py migrate
+
+->> Create admin user using
+
+python manage.py createsuperuser
+
+->> Start Web App using
+
+python manage.py runserver
+
+Now, open http://127.0.0.1:8000/home/ in your browser to access the application. 🚀
