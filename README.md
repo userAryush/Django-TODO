@@ -72,7 +72,6 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-->> Create admin user using
 
 ->> Start Web App using
 
