@@ -81,4 +81,4 @@ python manage.py runserver
 
 Now, open http://127.0.0.1:8000/home/ in your browser to access the application. 🚀
 
-![Alt text]("C:\Users\Aryush khatri\OneDrive - University of Wolverhampton\Desktop\dj\todo\Screenshot 2025-03-22 161755.png")
+![Image](https://github.com/user-attachments/assets/12399611-2407-4015-b78e-c02432d26782)
