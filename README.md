@@ -35,33 +35,49 @@ A simple To-Do application built using Django. This app allows users to view, cr
 
 ->> Clone repository
 
-git clone https://github.com/Mandip698/Final_Project_5CS024.git
+```bash
+git clone https://github.com/userAryush/Django-TODO.git
+```
 
 ->> Create a Virtual environment using
 
+```bash
 python -m venv env
+```
 
 ->> Activate Virtual environment using
 
--> For Windows → env\Scripts\activate
+-> For Windows
 
--> For Mac/Linux → source env/bin/activate
+```bash
+env\Scripts\activate
+```
+
+-> For Mac/Linux
+
+```bash
+source env\bin\activate
+```
 
 ->> Install all requirements using
 
+```bash
 pip install -r requirements.txt
+```
 
 ->> Initialize models using
 
+```bash
 python manage.py makemigrations
 python manage.py migrate
+```
 
 ->> Create admin user using
 
-python manage.py createsuperuser
-
 ->> Start Web App using
 
+```bash
 python manage.py runserver
+```
 
 Now, open http://127.0.0.1:8000/home/ in your browser to access the application. 🚀
