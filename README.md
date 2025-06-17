@@ -4,7 +4,7 @@ This project uses the basics operation of django framework. It mainly focuses on
 
 # Django To-Do App
 
-A simple To-Do application built using Django. This app allows users to view, create, edit, and delete tasks.
+A simple To-Do application built using Django and Bootstrap. This app allows users to view, create, edit, and delete tasks.
 
 ---
 
@@ -25,14 +25,6 @@ A simple To-Do application built using Django. This app allows users to view, cr
 - **Database:** SQLite (default Django database)  
 
 ---
-
-## 📂 Project Structure
-    📁 todo_app/
-    ├── 📄 models.py # Database models
-    ├── 📄 views.py # Logic and request handling
-    ├── 📄 urls.py # URL routing
-    ├── 📄 templates/ # HTML files 
-
 ->> Clone repository
 
 ```bash
